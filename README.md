@@ -119,8 +119,8 @@ I welcome contributions to the ChefMate project! Whether you want to report a bu
 
 For any inquiries, feedback, or suggestions regarding the ChefMate project, feel free to reach out to us:
 
-- **Your Name**: [your.email@example.com](mailto:gsamuelsonguna@gmail.com)
-- **GitHub**: [yourusername](https://github.com/Samuelson777)
+- **Your Name**: [gsamuelsonguna@gmail.com]
+- **GitHub**: [https://github.com/Samuelson777]
 
 ---
 
@@ -131,4 +131,19 @@ Check out the live demo of ChefMate here: [Live Demo](#) (link to be added once 
 Experience the features of ChefMate in real-time and see how it can help you find the best restaurants and assist you in cooking delicious meals!
 
 Thank you for checking out ChefMate! We hope you enjoy using it as much as i enjoyed building it. Happy cooking! 🍳
+
+---
+
+## 📧 IMAGES OF APP
+
+![Image_1](https://github.com/user-attachments/assets/86802b1b-9299-492a-955a-959e46ecaa5e)
+
+![Image_2](https://github.com/user-attachments/assets/5bf0ac1d-61a2-4ecd-8deb-495472e0f9c2)
+
+![Image_3](https://github.com/user-attachments/assets/1d1ad9f5-1ba3-447e-a0f2-aba2d340abe8)
+
+![Image_4](https://github.com/user-attachments/assets/e6f392f2-8072-41c4-a996-c7a5c1c85904)
+
+![Image_5](https://github.com/user-attachments/assets/6aed3697-9ed6-4ff9-8688-b9aad3963035)
+
 
