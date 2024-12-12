@@ -134,7 +134,7 @@ Thank you for checking out ChefMate! We hope you enjoy using it as much as i enj
 
 ---
 
-## 📧 IMAGES OF APP
+## 📸 IMAGES OF APP
 
 ![Image_1](https://github.com/user-attachments/assets/86802b1b-9299-492a-955a-959e46ecaa5e)
 
