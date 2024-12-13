@@ -92,7 +92,7 @@ The project is organized into the following directory structure:
 
 ## 📧 Contact
 
-For any inquiries, feedback, or suggestions regarding the ChefMate project, feel free to reach out to us:
+For any inquiries, feedback, or suggestions regarding the ChefMate project, feel free to reach out to me:
 
 - **Your Name**: [gsamuelsonguna@gmail.com]
 - **GitHub**: [https://github.com/Samuelson777]
