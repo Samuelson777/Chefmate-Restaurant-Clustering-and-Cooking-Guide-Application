@@ -4,7 +4,7 @@
 
 ---
 
-## 🌟 Features
+## 🌟 Features of app
 - **Personalized Recommendations**: Get tailored restaurant suggestions based on your favorite cuisines and dishes.
 - **Interactive Maps**: Explore restaurant locations with dynamic maps and ratings for an enhanced user experience.
 - **Cooking Assistance**: Engage with our chatbot for step-by-step cooking instructions and tips.
@@ -21,7 +21,7 @@
 
 ---
 
-## 🗝 Key Features
+## 🗝 Key Features of the project
 - **Data Storage**: Utilized AWS S3 for storing project files and raw data.
 - **Data Preprocessing**: Implemented data cleaning and preprocessing techniques to prepare the data for model training.
 - **Database Management**: Connected to AWS RDS to store cleaned data for structured querying.
