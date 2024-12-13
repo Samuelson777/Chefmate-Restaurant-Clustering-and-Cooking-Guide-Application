@@ -1,6 +1,6 @@
 # 🍽️ ChefMate: Restaurant Clustering & Cooking Guide Application
 
-Welcome to **ChefMate**, your intelligent culinary companion! This application clusters and recommends restaurants based on your preferences and features a chef-like chatbot to assist you in preparing delicious recipes. Whether you're looking for a new dining experience or need help in the kitchen, ChefMate has got you covered!
+**ChefMate** is an intelligent application designed to cluster and recommend restaurants based on user preferences, such as cuisine or specific dishes. Additionally, it features a chef-like chatbot that assists users in preparing recipes, enhancing their cooking experience. This project leverages machine learning and cloud computing technologies to deliver personalized recommendations and cooking guidance
 
 ---
 
@@ -18,6 +18,21 @@ Welcome to **ChefMate**, your intelligent culinary companion! This application c
 - **Machine Learning**: Implementing clustering algorithms for effective restaurant recommendations.
 - **Python**: The primary programming language for development.
 - **Chatbot Integration**: Enhancing user interaction with conversational AI.
+
+---
+
+## 🗝 Key Features
+- **Data Storage**: Utilized AWS S3 for storing project files and raw data.
+- **Data Preprocessing**: Implemented data cleaning and preprocessing techniques to prepare the data for model training.
+- **Database Management**: Connected to AWS RDS to store cleaned data for structured querying.
+- **Model Training**: Trained multiple clustering models, including:
+                        * KMeans
+                        * DBSCAN
+                        * Agglomerative Clustering
+                        * Gaussian Mixture
+    The models were evaluated using the silhouette score to determine the best-performing model
+- **Application Development**: Developed the ChefMate application using Streamlit to meet project requirements.
+- **Deployment**: Deployed the application on AWS for real-time interaction.
 
 ---
 
@@ -58,60 +73,19 @@ The project is organized into the following directory structure:
 
 ### Description of Each Component:
 
-- **app.py**: This is the main entry point of the application. It initializes the Streamlit web app, handles user inputs, and displays restaurant recommendations and chatbot interactions.
+- **ChefMate.py**: This is the main entry point of the application. It initializes the Streamlit web app, handles user inputs, and displays restaurant recommendations and chatbot interactions.
 
 - **requirements.txt**: This file lists all the Python packages and dependencies required to run the application. It can be installed using pip.
 
-- **data/**: This directory contains all datasets used in the application. The `restaurant_data.json` file includes detailed information about various restaurants, such as their names, locations, cuisines, ratings, and more.
+- **ChefMate/**: This directory contains datasets used in the application. The `Zomato_cluster_data.csv` file includes detailed information about various restaurants, such as their names, locations, cuisines, ratings, and more.
 
-- **models/**: This directory is dedicated to storing machine learning models. The `clustering_model.pkl` file contains the trained clustering model that groups restaurants based on similarities in user preferences.
+- **models/**: This directory is dedicated to storing machine learning models. The `kmeans_model.pkl` file contains the trained clustering model that groups restaurants based on similarities in user preferences.
 
-- **scripts/**: This directory includes scripts for data preprocessing and other utility functions. 
-  - **data_preprocessing.py**: This script is responsible for cleaning the raw restaurant data, handling missing values, and converting JSON data into a structured format suitable for analysis.
-  - **utils.py**: This file contains various utility functions that can be used throughout the application for tasks such as data manipulation and visualization.
+- **ChefMate/**: This directory includes scripts for data preprocessing and other utility functions. 
+  - **data_preprocessing.ipynb**: This script is responsible for cleaning the raw restaurant data, handling missing values, and converting JSON data into a structured format suitable for analysis.
+  - **data_cleaning.ipynb**: This file contains various utility functions that can be used throughout the application for tasks such as data manipulation and visualization.
 
 - **README.md**: This file provides comprehensive documentation for the project, including an overview, features, installation instructions, usage guidelines, and contribution details.
-
----
-
-## 🤝 Contributing
-
-I welcome contributions to the ChefMate project! Whether you want to report a bug, suggest a new feature, or improve the documentation, your input is valuable. Please follow the guidelines below to contribute effectively:
-
-### How to Contribute
-
-1. **Fork the Repository**: 
-   - Click on the "Fork" button at the top right corner of the repository page to create your own copy of the project.
-
-2. **Clone Your Fork**: 
-   - Clone your forked repository to your local machine:
-   ```bash
-   git clone https://github.com/yourusername/ChefMate.git
-
-3. **Create a New Branch**:
-   - Navigate to the project directory and create a new branch for your feature or bug fix:
-   ```bash
-   cd ChefMate
-   git checkout -b feature/YourFeature
-
-4. **Make Your Changes**:
-   - Implement your changes in the codebase. Ensure that your code adheres to the project's coding standards and is well-documented.
-
-5. **Test Your Changes**:
-   - Run the application locally to ensure that your changes work as expected. If applicable, add unit tests to cover your new features or bug fixes.
-
-6. **Commit Your Changes**:
-   -Commit your changes with a descriptive message
-   ```bash
-   git commit -m 'Add some feature or fix a bug'
-
-7. **Push to Your Branch**:
-   -Push your changes to your forked repository
-   ```bash
-   git push origin feature/YourFeature
-
-8. **Open a Pull Request**:
-   -Go to the original repository where you want to propose your changes. Click on the "Pull Requests" tab and then click on "New Pull Request". Select your branch and submit the pull request
 
 ---
 
@@ -128,9 +102,9 @@ For any inquiries, feedback, or suggestions regarding the ChefMate project, feel
 
 Check out the live demo of ChefMate here: [Live Demo](#) (link to be added once deployed).
 
-Experience the features of ChefMate in real-time and see how it can help you find the best restaurants and assist you in cooking delicious meals!
+Experience the features of ChefMate in real time with this eg app and see how it can help you find the best restaurants and assist you in cooking delicious meals!
 
-Thank you for checking out ChefMate! We hope you enjoy using it as much as i enjoyed building it. Happy cooking! 🍳
+Thank you for checking out ChefMate! I hope you enjoy using it as much as i enjoyed building it. Happy cooking! 🍳
 
 ---
 
@@ -146,4 +120,22 @@ Thank you for checking out ChefMate! We hope you enjoy using it as much as i enj
 
 ![Image_5](https://github.com/user-attachments/assets/6aed3697-9ed6-4ff9-8688-b9aad3963035)
 
+---
 
+## 💹 Challenges Faced
+One of the main challenges encountered was the limited data available for unsupervised learning, which restricted the depth of analysis and model training. Despite this, the project successfully demonstrates the core functionalities.
+
+---
+
+## 🔮 Future Plans
+The goal is to utilize this application in real-time scenarios, allowing users to receive personalized restaurant recommendations and cooking assistance.
+
+---
+
+## 🎯 Target Audience
+The primary users of this application are individuals seeking personalized dining experiences and cooking guidance.
+
+---
+
+## 📝 Acknowledgments
+This project was developed as part of a learning initiative to explore the integration of machine learning and cloud computing in real-world applications.
