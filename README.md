@@ -32,6 +32,7 @@
                         * Gaussian Mixture,
     The models were evaluated using the silhouette score to determine the best-performing model
 - **Application Development**: Developed the ChefMate application using Streamlit to meet project requirements.
+- **Chatbot integration in the app**: Used gemini generative AI role based chatbot using the API key.
 - **Deployment**: Deployed the application on AWS for real-time interaction.
 
 ---
