@@ -29,7 +29,7 @@
                         * KMeans
                         * DBSCAN
                         * Agglomerative Clustering
-                        * Gaussian Mixture
+                        * Gaussian Mixture,
     The models were evaluated using the silhouette score to determine the best-performing model
 - **Application Development**: Developed the ChefMate application using Streamlit to meet project requirements.
 - **Deployment**: Deployed the application on AWS for real-time interaction.
