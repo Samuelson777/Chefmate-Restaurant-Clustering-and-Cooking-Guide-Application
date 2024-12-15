@@ -107,6 +107,8 @@ Experience the features of ChefMate in real time with this eg app and see how it
 
 Thank you for checking out ChefMate! I hope you enjoy using it as much as i enjoyed building it. Happy cooking! 🍳
 
+For any clarification about using the app refer the user manual pdf
+
 ---
 
 ## 📸 IMAGES OF APP
