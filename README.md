@@ -101,7 +101,7 @@ For any inquiries, feedback, or suggestions regarding the ChefMate project, feel
 
 ## 🌐 Live Demo
 
-Check out the live demo of ChefMate here: [Live Demo](http://3.110.171.226:8501/).
+Check out the live demo of ChefMate here: [Live Demo](http://65.0.177.245:8501/).
 
 Experience the features of ChefMate in real time with this eg app and see how it can help you find the best restaurants and assist you in cooking delicious meals!
 
