@@ -1,6 +1,6 @@
 # 🍽️ ChefMate: Restaurant Clustering & Cooking Guide Application
 
-**ChefMate** is an intelligent application designed to cluster and recommend restaurants based on user preferences, such as cuisine or specific dishes. Additionally, it features a chef-like chatbot that assists users in preparing recipes, enhancing their cooking experience. This project leverages machine learning and cloud computing technologies to deliver personalized recommendations and cooking guidance
+**ChefMate** is an intelligent application designed to cluster and recommend restaurants based on user preferences, such as cuisine or specific dishes. Additionally, it features a chef-like chatbot that assists users in preparing recipes, enhancing their cooking experience. This project leverages machine learning and cloud computing technologies to deliver personalized recommendations and cooking guidance.
 
 ---
 
