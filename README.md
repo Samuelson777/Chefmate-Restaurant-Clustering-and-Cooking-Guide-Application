@@ -142,3 +142,6 @@ The primary users of this application are individuals seeking personalized dinin
 
 ## 📝 Acknowledgments
 This project was developed as part of a learning initiative to explore the integration of machine learning and cloud computing in real-world applications.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Samuelson777/Chefmate-Restaurant-Clustering-and-Cooking-Guide-Application/blob/main/LICENSE) file for details.
